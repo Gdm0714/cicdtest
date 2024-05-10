@@ -10,4 +10,9 @@ public class HelloController {
     public String printHello() {
         return "CICD 성공!!";
     }
+
+    @GetMapping("/hello")
+    public String printHi(){
+        return "Hello Spring!!!";
+    }
 }
